@@ -1,0 +1,39 @@
+---
+ip: "192.168.1.10"
+memory: 2048
+cpus: 2
+provider: virtualbox
+
+authorize: /Users/richs/.ssh/id_rsa.pub
+
+keys:
+    - /Users/richs/.ssh/id_rsa
+
+folders:
+    - map: /www/laravel
+      to: /home/vagrant/Code
+
+sites:
+    - map: homestead.test
+      to: /home/vagrant/Code/public
+
+databases:
+    - homestead
+
+features:
+    - mariadb: false
+    - ohmyzsh: false
+    - webdriver: false
+
+# Сайт доступен по адресу
+# http://homestead.test:8000/
+# Для синхронизации с общей папкой
+# vagrant reload
+# Читаю
+# https://laravel.ru/docs/v5/controllers
+# ports:
+#     - send: 50000
+#       to: 5000
+#     - send: 7777
+#       to: 777
+#       protocol: udp
