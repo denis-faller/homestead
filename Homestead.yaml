@@ -30,7 +30,7 @@ features:
 # Для синхронизации с общей папкой
 # vagrant reload
 # Читаю
-# https://laravel.ru/docs/v5/controllers
+# https://laravel.ru/docs/v5/container
 # ports:
 #     - send: 50000
 #       to: 5000
