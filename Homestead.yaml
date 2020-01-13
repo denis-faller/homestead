@@ -29,8 +29,6 @@ features:
 # http://homestead.test:8000/
 # Для синхронизации с общей папкой
 # vagrant reload
-# Читаю
-# https://laravel.ru/docs/v5/queries
 # ports:
 #     - send: 50000
 #       to: 5000
