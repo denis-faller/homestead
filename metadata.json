@@ -1,0 +1,10 @@
+{
+    "name": "laravel/homestead",
+    "versions": [{
+        "version": "9.0.0",
+        "providers": [{
+            "name": "virtualbox",
+            "url": "file:///Users/Asus/.vagrant.d/boxes/homestead.box"
+        }]
+    }]
+}
