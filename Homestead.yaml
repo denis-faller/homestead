@@ -29,6 +29,8 @@ features:
 # http://homestead.test:8000/
 # Для синхронизации с общей папкой
 # vagrant reload
+# Не стоит использовать vagrant init
+# в репозитории уже есть Vagrantfile
 # ports:
 #     - send: 50000
 #       to: 5000
